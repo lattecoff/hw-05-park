@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-	sealed internal class Domestication : Animal
+	sealed public class Domestication : Animal
 	{
 		public Domestication(string name, uint age, uint size) : base(name, age, size)
 		{

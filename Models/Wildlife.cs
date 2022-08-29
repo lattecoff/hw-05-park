@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Models
 {
-	sealed internal class Wildlife : Animal
+	sealed public class Wildlife : Animal
 	{
 
 		public Wildlife(string name, uint age, uint size) : base(name, age, size)
