@@ -5,4 +5,5 @@ using Models;
 Console.WriteLine("Start App");
 Console.WriteLine();
 
-Cow.Eat();
+Wildlife zembra = new Wildlife("zembra", 10, 100);
+Domestication cow = new Domestication("Cow", 5, 160);
